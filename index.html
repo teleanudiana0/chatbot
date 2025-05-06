@@ -261,7 +261,7 @@
     userMessage.innerHTML = `<strong>Tú:</strong> ${message}`;
     chatContent.appendChild(userMessage);
     chatContent.scrollTop = chatContent.scrollHeight;
-    fetch('http://localhost:5000/chat', {
+    fetch('https://robi-cnqu.onrender.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
